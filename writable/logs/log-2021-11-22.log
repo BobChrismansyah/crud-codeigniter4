@@ -1,0 +1,26 @@
+ERROR - 2021-11-22 10:41:13 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 10:41:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 D:\xampp\htdocs\ci4crud\app\Controllers\Pegawai.php(90): CodeIgniter\BaseModel->paginate(5)
+#5 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pegawai->index()
+#6 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ci4crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-22 10:42:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-22 10:42:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#4 D:\xampp\htdocs\ci4crud\app\Controllers\Pegawai.php(90): CodeIgniter\BaseModel->paginate(5)
+#5 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Pegawai->index()
+#6 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\xampp\htdocs\ci4crud\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ci4crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
